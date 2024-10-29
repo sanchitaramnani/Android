@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 
 Future fetchCourse() async {
-  final response = await http.get(Uri.parse('https://rushil111.pythonanywhere.com/course'));
+  final response = await http.get(Uri.parse('https://www.codecademy.com/catalog/subject/web-development'));
 
   // Appropriate action depending upon the
   // server response
